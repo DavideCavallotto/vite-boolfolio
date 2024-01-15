@@ -11,8 +11,7 @@ export default {
 </script>
 
 <template>
-  <div>
-    <h1>Entra?????????</h1>
+  <div>    
    <ProjectIndex/>
   </div>
   
