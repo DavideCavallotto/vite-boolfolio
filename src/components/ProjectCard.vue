@@ -26,6 +26,7 @@ export default {
 <style lang="scss" scoped>
 .card-project {
     padding: 20px;
+    margin: 20px;
     border-radius: 8px;
     background: #dedede;
 

@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.col-3 {
+    flex-basis: calc((100% / 12) * 3);
+}
+
+.row {
+    display: flex;
+}

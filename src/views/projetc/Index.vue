@@ -39,7 +39,10 @@ export default {
         </div>
 
         <div class="container">
-            <ProjectCard v-for="project in projects" :myProject="project" :key="project.id" />
+            <div class="row">
+                <ProjectCard v-for="project in projects" :myProject="project" :key="project.id" />
+
+            </div>
         </div>
     </div>
 </template>
