@@ -17,8 +17,7 @@ export default {
     methods: {
         fetchProjects() {
             axios.get(`${this.BASE_URL}/projects`)
-            .then((res) => {
-                console.log(res)
+            .then((res) => {                
                 this.projects = res.data.results
             })
         }

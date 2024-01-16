@@ -16,8 +16,9 @@ export default {
             <p>{{ myProject.description }}</p>
             <img :src="myProject.image" alt="">
             <p><span class="type-title">Tipo:</span> {{ myProject.type.name }}</p>
-            <p><span class="technologies-title">Tecnologie:</span> <span class="technologies" v-for="technology in myProject.technologies">{{ technology.name }}</span></p>
-        
+            
+            <router-link :to="{ name: 'projects.show', params: { slug: myProject.slug } }">Info</router-link>
+
         </div>      
 
     </div>
@@ -33,10 +34,6 @@ export default {
 
     img {
         width: 200px;
-    }
-
-    .technologies {
-        display: flex;
     }
 
     .type-title,

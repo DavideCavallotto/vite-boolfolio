@@ -1,18 +1,20 @@
 <script>
-import ProjectIndex from './views/projetc/Index.vue'
+import ProjectIndex from './views/projects/Index.vue'
+
+import AppHeader from './components/AppHeader.vue';
 
 export default {
-  
     
+  components: { AppHeader }
 }
 
 </script>
 
 <template>
-  <div>    
-   
-   <router-view></router-view>
-  </div>
+  
+ <AppHeader></AppHeader>
+ <router-view></router-view>
+  
   
 </template>
 
@@ -20,3 +22,5 @@ export default {
 @use './styles/general.scss';
 
 </style>
+
+

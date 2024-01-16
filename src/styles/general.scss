@@ -4,16 +4,3 @@
     box-sizing: border-box;
 }
 
-.col-3 {
-    flex-basis: calc((100% / 12) * 3);
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.container {
-    width: 900px;
-    margin: 0 auto;
-}
