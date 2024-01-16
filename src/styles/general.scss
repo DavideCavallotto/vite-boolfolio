@@ -10,4 +10,10 @@
 
 .row {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
 }

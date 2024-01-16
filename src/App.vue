@@ -2,9 +2,7 @@
 import ProjectIndex from './views/projetc/Index.vue'
 
 export default {
-  components: {
-      ProjectIndex
-  }   
+  
     
 }
 
@@ -12,7 +10,8 @@ export default {
 
 <template>
   <div>    
-   <ProjectIndex/>
+   
+   <router-view></router-view>
   </div>
   
 </template>
